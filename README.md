@@ -1,5 +1,5 @@
 # Overview
-  This Python script provides a basic image encryption tool using pixel manipulation. It offers two simple encryption methods: swapping pixel values and applying a basic mathematical    operation.
+  This Python script provides a basic image encryption tool using pixel manipulation. It offers two simple encryption methods: swapping pixel values and applying a basic mathematical operation.
 
 # Functions
 
@@ -15,6 +15,7 @@ python image_encryption.py decrypt <image_path> <key> [--swap]
 # Example of usage..
 
 python image_encryption.py encrypt images/input_image.png 50 --swap
+
 python image_encryption.py decrypt encrypted_image.png 50 --swap
 
 
